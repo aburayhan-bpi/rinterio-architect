@@ -103,7 +103,7 @@
                     <!-- icon section -->
                     <div class="hidden md:flex md:gap-5 lg:gap-4 items-center">
                         <!-- icon1 -->
-                        <div class="bg-white border border-color5 rounded-full min-w-10 p-2">
+                        <div class="bg-white border border-color5 rounded-full min-w-10 p-2 cursor-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -111,7 +111,7 @@
                             </svg>
                         </div>
                         <!-- icon2 -->
-                        <div class="bg-white border border-color5 rounded-full min-w-10 p-2">
+                        <div class="bg-white border border-color5 rounded-full min-w-10 p-2 cursor-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -242,8 +242,8 @@
                         <div class="flex gap-6 items-center bg-white rounded-lg py-7 pl-6">
                             <!-- card content left -->
                             <div class=" ">
-                                <img class="w-11 -mt-16 sm:-mt-12 lg:mt-0 lg:w-full border border-purple-600"
-                                    src="images/residential.png" alt="">
+                                <img class="w-11 -mt-16 sm:-mt-12 lg:mt-0 lg:w-full" src="images/residential.png"
+                                    alt="">
                             </div>
                             <!-- card content right -->
                             <div class="flex-1 space-y-3 pr-7">
@@ -312,6 +312,7 @@
 
         <!-- Our work process section -->
         <section class="container xl:w-10/12 mx-auto px-5 mt-20">
+            <!-- Our work process container -->
             <div>
                 <!-- how we work -->
                 <div class="flex justify-between bg-white rounded-full px-3 py-1 max-w-[9.6rem] mb-4 mx-auto">
@@ -360,6 +361,140 @@
                             charm and modern.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Our latest portfolio section -->
+        <section class="lg:bg-white">
+            <div class="container xl:w-10/12 mx-auto px-5 mt-20 py-20">
+                <!-- Our latest portfolio container -->
+                <div>
+                    <!-- Explore our Latest works -->
+                    <div class="flex justify-between bg-primary2 rounded-full px-3 py-1 max-w-[15rem] mb-4 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                        <p class="font-semibold text-color3">Explore our Latest works</p>
+                    </div>
+                    <h2 class="text-center mb-4 font-extrabold text-4xl">Our Latest Portfolio</h2>
+                    <p class="text-center mb-6 max-w-2xl mx-auto text-base text-color3">The barn house captivates with
+                        its
+                        blend of rustic charm
+                        and modern
+                        sophistication, featuring
+                        weathered wood, sleek
+                        metal accents.</p>
+                </div>
+
+                <!-- Portfolio cards container -->
+                <div class="sm:grid grid-cols-1 lg:grid-cols-6 2xl:grid-cols-7 justify-between gap-6">
+                    <!-- card 1 -->
+                    <div
+                        class="col-span-4 2xl:col-span-5 flex flex-col sm:flex-row items-center gap-5 p-5 lg:px-6 rounded-2xl bg-white border">
+                        <!-- card image -->
+                        <div class="w-fit h-fit rounded-xl border">
+                            <img class="object-cover md:w-[36rem] lg:min-w-52 lg:max-w-64 w-96 h-auto rounded-xl"
+                                src="images/img1.png" alt="">
+                        </div>
+                        <div class="space-y-3 lg:space-y-[0.7rem] xl:space-y-[1.3rem] 2xl:space-y-[1.9rem]">
+                            <h3 class="font-extrabold text-xl sm:text-2xl">Commercial</h3>
+                            <p class="">
+                                The barn house captivates with its blend of rustic charm and modern. The barn house
+                                captivates with its blend of rustic
+                                charm and modern.
+                            </p>
+                            <!-- card button -->
+                            <div
+                                class=" w-fit flex items-center gap-2 bg-white border-none px-4 pl-0 rounded-full cursor-pointer">
+                                <h4 class="font-bold text-xl sm:text-2xl">View Details</h4>
+                                <div class="flex items-center bg-primary1 rounded-full max-w-7 max-h-7 p-2">
+                                    <svg class="size-9" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div
+                        class="sm:hidden lg:flex col-span-2 mt-5 sm:mt-0 w-full sm:w-fit px-4 py-5 lg:p-4 overflow-hidden rounded-2xl border bg-white max-w-full">
+                        <img class="object-cover w-96 h-full rounded-2xl" src="images/img2.png" alt="">
+                    </div>
+
+                </div>
+                <!-- show only for tablet -->
+                <div class="grid grid-cols-4 gap-5 mt-6">
+                    <!-- col 1 -->
+                    <div
+                        class="hidden sm:flex lg:hidden col-span-2 mt-5 sm:mt-0 w-full sm:w-fit px-4 py-5 lg:p-4 overflow-hidden rounded-2xl border bg-white max-w-full">
+                        <img class="object-cover w-96 h-full rounded-2xl" src="images/img2.png" alt="">
+                    </div>
+                    <!-- col 2 -->
+                    <div
+                        class="hidden sm:flex lg:hidden col-span-2 mt-5 sm:mt-0 w-full sm:w-fit px-4 py-5 lg:p-4 overflow-hidden rounded-2xl border bg-white max-w-full">
+                        <img class="object-cover w-96 h-full rounded-2xl" src="images/img2.png" alt="">
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <!-- card 3 -->
+
+                <div class="sm:grid grid-cols-1 lg:grid-cols-5 gap-5 -mt-5 sm:mt-6 lg:mt-1">
+                    <div
+                        class="sm:hidden lg:flex mt-5 mb-5 sm:mb-0 sm:mt-0 w-full sm:w-fit px-4 py-5 lg:p-4 overflow-hidden rounded-2xl border bg-white max-w-full">
+                        <img class="object-cover w-96 h-full rounded-2xl" src="images/img3.png" alt="">
+                    </div>
+                    <!-- card 4 -->
+                    <div
+                        class="col-span-3 flex flex-col sm:flex-row items-center gap-5 p-5 rounded-2xl bg-white border">
+                        <!-- card image -->
+                        <div class="w-full sm:w-fit h-full rounded-xl border bg-white">
+                            <img class="object-cover 2xl:w-[17rem] w-full h-auto rounded-xl" src="images/img4.png"
+                                alt="">
+                        </div>
+                        <div class="space-y-3 sm:space-y-5 lg:space-y-2 xl:space-y-4 2xl:space-y-[1.7rem]">
+                            <h3 class="font-extrabold text-xl sm:text-2xl">Commercial</h3>
+                            <p class="">
+                                The barn house captivates with its blend of rustic charm and modern.
+                            </p>
+                            <!-- card button -->
+                            <div
+                                class="flex items-center gap-2 bg-white border-none px-4 pl-0 rounded-full cursor-pointer">
+                                <h4 class="font-bold text-xl sm:text-2xl">View Details</h4>
+                                <div class="flex items-center bg-primary1 rounded-full max-w-7 max-h-7 p-2">
+                                    <svg class="size-9" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div
+                        class="sm:hidden lg:block mt-5 sm:mt-0 w-full sm:w-fit px-4 py-5 lg:p-4 overflow-hidden rounded-2xl border bg-white max-w-full">
+                        <img class="object-cover w-96 h-full rounded-2xl" src="images/img5.png" alt="">
+                    </div>
+                </div>
+                <!-- extra for tablet -->
+                <div class="grid grid-cols-4 gap-5 mt-6">
+                    <!-- col 1 -->
+                    <div
+                        class="hidden sm:flex lg:hidden col-span-2 mt-5 sm:mt-0 w-full sm:w-fit px-4 py-5 lg:p-4 overflow-hidden rounded-2xl border bg-white max-w-full">
+                        <img class="object-cover w-96 h-full rounded-2xl" src="images/img2.png" alt="">
+                    </div>
+                    <!-- col 2 -->
+                    <div
+                        class="hidden sm:flex lg:hidden col-span-2 mt-5 sm:mt-0 w-full sm:w-fit px-4 py-5 lg:p-4 overflow-hidden rounded-2xl border bg-white max-w-full">
+                        <img class="object-cover w-96 h-full rounded-2xl" src="images/img2.png" alt="">
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
