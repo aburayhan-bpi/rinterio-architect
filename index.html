@@ -22,9 +22,6 @@
         tailwind.config = {
             theme: {
                 extend: {
-                    backgroundImage: {
-                        'custom-bg': "url('./images/bg.jpg')",
-                    },
                     colors: {
                         clifford: "#da373d",
                         primary1: "#ABEF5F",
@@ -45,9 +42,6 @@
                     fontFamily: {
                         manrope: "Manrope",
                     },
-                    backgroundImage: {
-                        'image': "url('./images/Vector.png')",
-                    },
                 },
             },
         };
@@ -56,7 +50,7 @@
 
 <body class="font-manrope">
     <!-- Header section -->
-    <div class="mb-36">
+    <div class="mb-16 lg:mb-36">
         <header class="container xl:w-10/12 mx-auto pt-4 px-5 ">
             <div class="navbar justify-between px-0">
                 <div class="navbar-start w-4/12 ">
@@ -194,8 +188,8 @@
     </div>
     <!-- Main section -->
     <main class="bg-color6 pb-20">
-        <section class="xl:w-10/12 mx-auto py-24 px-5">
-            <!-- About Section -->
+        <!-- About Section -->
+        <section class="container xl:w-10/12 mx-auto py-10 lg:py-24 px-5">
             <div class="relative grid gap-6 grid-cols-1 lg:grid-cols-2 justify-between items-center max-w-7xl mx-auto">
                 <!-- col 1 content section -->
                 <div class="relative">
@@ -367,7 +361,7 @@
 
         <!-- Our latest portfolio section -->
         <section class="lg:bg-white">
-            <div class="container xl:w-10/12 mx-auto px-5 mt-20 py-20">
+            <div class="container xl:w-10/12 mx-auto px-5 mt-20 py-0 pb-10 sm:pb-20 lg:pt-20">
                 <!-- Our latest portfolio container -->
                 <div>
                     <!-- Explore our Latest works -->
@@ -500,175 +494,251 @@
             </div>
         </section>
 
+        <!-- Package Offer Section -->
+        <section class="bg-white">
+            <div class="container xl:w-10/12 mx-auto px-5 pt-6 lg:pt-0 pb-20">
+                <h2 class="text-center mb-4 font-extrabold text-4xl">Package Offers</h2>
+                <p class="text-center mb-8 max-w-2xl mx-auto text-base text-color3">The barn house captivates with
+                    its
+                    blend of rustic charm
+                    and modern
+                    sophistication, featuring
+                    weathered wood, sleek
+                    metal accents.</p>
+                <!-- Card container -->
+                <div class="grid gap-6 mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+                    <!-- Card 1 -->
+                    <div class="card card-compact border rounded-md shadow-lg mx-auto">
+                        <figure class="overflow-hidden">
+                            <img class="w-full h-56" src="images/package1.png" alt="package1" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title mt-2  font-extrabold">Customized 3BHK Home or Flat Interior</h2>
+                            <p class="font-semibold -mt-1 text-sm text-color5">Limited Time Offer For Home Interiors</p>
+                            <p class="font-semibold text-sm text-color5">Special Discount Offer</p>
+                            <div class="flex gap-2 items-center">
+                                <span class="font-semibold text-color5 text-base line line-through">8.86 Lakh</span>
+                                <span class="font-bold text-lg text-primary1">6.66 Lakh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card card-compact border rounded-md shadow-lg mx-auto">
+                        <figure class="overflow-hidden">
+                            <img class="w-full h-56" src="images/package2.png" alt="package1" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title mt-2  font-extrabold">Customized 3BHK Home or Flat Interior</h2>
+                            <p class="font-semibold -mt-1 text-sm text-color5">Limited Time Offer For Home Interiors</p>
+                            <p class="font-semibold text-sm text-color5">Special Discount Offer</p>
+                            <div class="flex gap-2 items-center">
+                                <span class="font-semibold text-color5 text-base line line-through">12.75 Lakh</span>
+                                <span class="font-bold text-lg text-primary1">10.78 Lakh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card card-compact border rounded-md shadow-lg mx-auto">
+                        <figure class="overflow-hidden">
+                            <img class="w-full h-56" src="images/package3.png" alt="package1" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title mt-2  font-extrabold">Customized 3BHK Home or Flat Interior</h2>
+                            <p class="font-semibold -mt-1 text-sm text-color5">Limited Time Offer For Home Interiors</p>
+                            <p class="font-semibold text-sm text-color5">Special Discount Offer</p>
+                            <div class="flex gap-2 items-center">
+                                <span class="font-semibold text-color5 text-base line line-through">17.49 Lakh</span>
+                                <span class="font-bold text-lg text-primary1">14.99 Lakh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card card-compact border rounded-md shadow-lg mx-auto">
+                        <figure class="overflow-hidden">
+                            <img class="w-full h-56" src="images/package2.png" alt="package1" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title mt-2  font-extrabold">Customized 3BHK Home or Flat Interior</h2>
+                            <p class="font-semibold -mt-1 text-sm text-color5">Limited Time Offer For Home Interiors</p>
+                            <p class="font-semibold text-sm text-color5">Special Discount Offer</p>
+                            <div class="flex gap-2 items-center">
+                                <span class="font-semibold text-color5 text-base line line-through">18.69 Lakh</span>
+                                <span class="font-bold text-lg text-primary1">16.87 Lakh</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <!-- Read our articles and news -->
         <!-- Read our articles and news -->
 
-        <section class="container xl:w-10/12 mx-auto px-5">
+        <section class="container xl:w-10/12 mx-auto px-5 py-10">
+            <!-- how we work container -->
             <div>
-                <!-- how we work container -->
-                <div>
-                    <!-- how we work -->
-                    <div
-                        class="flex justify-between mt-0 sm:mt-0 lg:mt-20 bg-primary3 rounded-full px-3 py-1 max-w-[9.6rem] mb-4 mx-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                        </svg>
-                        <p class="font-semibold text-color3">Rinterio News</p>
-                    </div>
-                    <h2 class="text-center mb-4 font-extrabold text-4xl">Our Works Process</h2>
-                    <p class="text-center mb-6 max-w-2xl mx-auto text-base text-color3">The barn house captivates with
-                        its
-                        blend of rustic charm
-                        and modern
-                        sophistication, featuring
-                        weathered wood, sleek
-                        metal accents.</p>
+                <!-- how we work -->
+                <div
+                    class="flex justify-between mt-0 sm:mt-0 lg:mt-20 bg-primary3 rounded-full px-3 py-1 max-w-[9.6rem] mb-4 mx-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                    <p class="font-semibold text-color3">Rinterio News</p>
                 </div>
-                <!-- card container -->
-                <div class="grid gap-5 lg:gap-0 grid-cols-1 lg:grid-cols-3">
-                    <!-- card 1 -->
-                    <div class="sm:flex sm:gap-5 lg:block bg-white rounded-xl h-fit w-fit p-5">
-                        <img class="w-full" src="images/article1.png" alt="">
-                        <div class="max-w-[21rem] sm:w-full lg:max-w-[21rem]">
-                            <!-- span container -->
-                            <div class="flex gap-4 mt-3">
-                                <!-- span col 1 -->
-                                <span class="flex gap-2 text-sm text-color4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
-                                    </svg>
-                                    <span>July 14, 2024</span>
-                                </span>
-                                <!-- span col 2 -->
-                                <span class="flex gap-2 text-sm text-color4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                    <span>By Admin</span>
-                                </span>
-                            </div>
-                            <h3 class="text-color3 font-extrabold text-xl mt-1 mb-2">
-                                How to
-                                choose
-                                the furniture right
-                                of
-                                your home.
-                            </h3>
-                            <p class="text-color4 mb-3">The barn house captivates with its blend of rustic charm and
-                                modern.
-                            </p>
-                            <!-- article card button -->
-                            <div class="w-fit ml-0 flex gap-2 cursor-pointer">
-                                <h4 class="font-bold text-lg">Read More</h4>
-                                <div class="bg-primary1 rounded-full w-8 p-2">
-                                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
+                <h2 class="text-center mb-4 font-extrabold text-4xl">Our Works Process</h2>
+                <p class="text-center mb-6 max-w-2xl mx-auto text-base text-color3">The barn house captivates with
+                    its
+                    blend of rustic charm
+                    and modern
+                    sophistication, featuring
+                    weathered wood, sleek
+                    metal accents.</p>
+            </div>
+            <!-- card container -->
+            <div class="grid gap-5 grid-cols-1 lg:grid-cols-3 ">
+                <!-- card 1 -->
+                <div class="sm:flex sm:gap-5 lg:block bg-white rounded-xl h-fit w-fit p-5 mx-auto">
+                    <img class="w-full" src="images/article1.png" alt="">
+                    <div class="max-w-[21rem] sm:w-full lg:max-w-[21rem] mx-auto">
+                        <!-- span container -->
+                        <div class="flex gap-4 mt-3">
+                            <!-- span col 1 -->
+                            <span class="flex gap-2 text-sm text-color4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                </svg>
+                                <span>July 14, 2024</span>
+                            </span>
+                            <!-- span col 2 -->
+                            <span class="flex gap-2 text-sm text-color4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                </svg>
+                                <span>By Admin</span>
+                            </span>
+                        </div>
+                        <h3 class="text-color3 font-extrabold text-xl mt-1 mb-2">
+                            How to
+                            choose
+                            the furniture right
+                            of
+                            your home.
+                        </h3>
+                        <p class="text-color4 mb-3">The barn house captivates with its blend of rustic charm and
+                            modern.
+                        </p>
+                        <!-- article card button -->
+                        <div class="w-fit ml-0 flex gap-2 cursor-pointer">
+                            <h4 class="font-bold text-lg">Read More</h4>
+                            <div class="bg-primary1 rounded-full w-8 p-2">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
                             </div>
                         </div>
                     </div>
-                    <!-- card 2 -->
-                    <div class="sm:flex sm:gap-5 lg:block bg-white rounded-xl h-fit w-fit p-5">
-                        <img class="w-full" src="images/article2.png" alt="">
-                        <div class="max-w-[21rem] sm:w-full lg:max-w-[21rem]">
-                            <!-- span container -->
-                            <div class="flex gap-4 mt-3">
-                                <!-- span col 1 -->
-                                <span class="flex gap-2 text-sm text-color4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
-                                    </svg>
-                                    <span>July 14, 2024</span>
-                                </span>
-                                <!-- span col 2 -->
-                                <span class="flex gap-2 text-sm text-color4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                    <span>By Admin</span>
-                                </span>
-                            </div>
-                            <h3 class="text-color3 font-extrabold text-xl mt-1 mb-2">
-                                How to
-                                choose
-                                the furniture right
-                                of
-                                your home.
-                            </h3>
-                            <p class="text-color4 mb-3">The barn house captivates with its blend of rustic charm and
-                                modern.
-                            </p>
-                            <!-- article card button -->
-                            <div class="w-fit ml-0 flex gap-2 cursor-pointer">
-                                <h4 class="font-bold text-lg">Read More</h4>
-                                <div class="bg-primary1 rounded-full w-8 p-2">
-                                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
+                </div>
+                <!-- card 2 -->
+                <div class="sm:flex sm:gap-5 lg:block bg-white rounded-xl h-fit w-fit p-5 mx-auto">
+                    <img class="w-full" src="images/article2.png" alt="">
+                    <div class="max-w-[21rem] sm:w-full lg:max-w-[21rem]">
+                        <!-- span container -->
+                        <div class="flex gap-4 mt-3">
+                            <!-- span col 1 -->
+                            <span class="flex gap-2 text-sm text-color4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                </svg>
+                                <span>July 14, 2024</span>
+                            </span>
+                            <!-- span col 2 -->
+                            <span class="flex gap-2 text-sm text-color4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                </svg>
+                                <span>By Admin</span>
+                            </span>
+                        </div>
+                        <h3 class="text-color3 font-extrabold text-xl mt-1 mb-2">
+                            How to
+                            choose
+                            the furniture right
+                            of
+                            your home.
+                        </h3>
+                        <p class="text-color4 mb-3">The barn house captivates with its blend of rustic charm and
+                            modern.
+                        </p>
+                        <!-- article card button -->
+                        <div class="w-fit ml-0 flex gap-2 cursor-pointer">
+                            <h4 class="font-bold text-lg">Read More</h4>
+                            <div class="bg-primary1 rounded-full w-8 p-2">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
                             </div>
                         </div>
                     </div>
-                    <!-- card 3 -->
-                    <div class="sm:flex sm:gap-5 lg:block bg-white rounded-xl h-fit w-fit p-5">
-                        <img class="w-full" src="images/article3.png" alt="">
-                        <div class="max-w-[21rem] sm:w-full lg:max-w-[21rem]">
-                            <!-- span container -->
-                            <div class="flex gap-4 mt-3">
-                                <!-- span col 1 -->
-                                <span class="flex gap-2 text-sm text-color4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
-                                    </svg>
-                                    <span>July 14, 2024</span>
-                                </span>
-                                <!-- span col 2 -->
-                                <span class="flex gap-2 text-sm text-color4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    </svg>
-                                    <span>By Admin</span>
-                                </span>
-                            </div>
-                            <h3 class="text-color3 font-extrabold text-xl mt-1 mb-2">
-                                How to
-                                choose
-                                the furniture right
-                                of
-                                your home.
-                            </h3>
-                            <p class="text-color4 mb-3">The barn house captivates with its blend of rustic charm and
-                                modern.
-                            </p>
-                            <!-- article card button -->
-                            <div class="w-fit ml-0 flex gap-2 cursor-pointer">
-                                <h4 class="font-bold text-lg">Read More</h4>
-                                <div class="bg-primary1 rounded-full w-8 p-2">
-                                    <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
+                </div>
+                <!-- card 3 -->
+                <div class="sm:flex sm:gap-5 lg:block bg-white rounded-xl h-fit w-fit p-5 mx-auto">
+                    <img class="w-full" src="images/article3.png" alt="">
+                    <div class="max-w-[21rem] sm:w-full lg:max-w-[21rem]">
+                        <!-- span container -->
+                        <div class="flex gap-4 mt-3">
+                            <!-- span col 1 -->
+                            <span class="flex gap-2 text-sm text-color4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                </svg>
+                                <span>July 14, 2024</span>
+                            </span>
+                            <!-- span col 2 -->
+                            <span class="flex gap-2 text-sm text-color4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                </svg>
+                                <span>By Admin</span>
+                            </span>
+                        </div>
+                        <h3 class="text-color3 font-extrabold text-xl mt-1 mb-2">
+                            How to
+                            choose
+                            the furniture right
+                            of
+                            your home.
+                        </h3>
+                        <p class="text-color4 mb-3">The barn house captivates with its blend of rustic charm and
+                            modern.
+                        </p>
+                        <!-- article card button -->
+                        <div class="w-fit ml-0 flex gap-2 cursor-pointer">
+                            <h4 class="font-bold text-lg">Read More</h4>
+                            <div class="bg-primary1 rounded-full w-8 p-2">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
                             </div>
                         </div>
                     </div>
@@ -677,7 +747,7 @@
         </section>
 
         <!-- Let's connect secton -->
-        <section class="bg-[url('images/bg.jpg')] bg-cover bg-center mt-28 py-20">
+        <section class="bg-[url('images/bg.jpg')] bg-cover bg-center mt-10 lg:mt-28 py-10 sm:py-20">
             <div class="container xl:w-8/12 mx-auto px-5">
                 <div class="flex justify-between bg-primary3 rounded-full px-3 py-1 max-w-[10rem] mb-4 mx-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
